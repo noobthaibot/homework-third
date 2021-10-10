@@ -1,6 +1,24 @@
 header {
     width: 1420px;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+.main-header {
+    width: 1420px;
+    height: 105px;
+}
+.login {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 .logo {
     position: relative;
 }
@@ -12,6 +30,297 @@ header {
     width: 60px;
 }
 .logo__icon1 {
-    top:-54px;
+    top: -54px;
     left: 60px;
 }
+.logo__icon2 {
+    top: -7px;
+    left: 0px;
+}
+.logo__icon3 {
+    top: -101px;
+    left: 60px;
+}
+.logo__icon4 {
+    top: -54px;
+    left: 2px;
+}
+.logo__link {
+    display: block;
+    margin-left: 143px;
+    padding-top: 18px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-left: 580px;
+    padding-top: 6px;
+}
+.address a {
+    text-decoration: none;
+    font-style: normal;
+    color: #061058;
+    margin-top: 7px;
+}
+.login a {
+    position: relative;
+    text-decoration: none;
+}
+.login-button {
+    display: block;
+    margin-left: 20px;
+    width: 245px;
+    height: 72px;
+    margin-top: 16px;
+    background-color: #00a87c;
+    box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.25);
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+}
+.login__icon1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 41px;
+    left: 50px;
+}
+.bg-item1 {
+    position: absolute;
+    width: 65px;
+    height: 32px;
+    top: 73px;
+    left: 800px;
+}
+.bg-item2 {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    right: 0;
+    top: 58px;
+}
+.main-banner {
+    position: relative;
+    width: 1420px;
+    height: 403px;
+    background: linear-gradient(
+        51.39deg,
+        #0065bd 66.32%,
+        #0759a5 72.87%,
+        #033a84 81.3%,
+        #012670 88.35%,
+        #001f69 93.12%,
+        #0f181d 116.4%
+    );
+}
+.banner-bg-item1 {
+    width: 513px;
+    height: 403px;
+    opacity: 0.2;
+}
+.banner-bg-item2 {
+    width: 87px;
+    height: 217px;
+    position: absolute;
+    right: 0;
+}
+.banner-bg-item3 {
+    position: absolute;
+    right: 87px;
+}
+.banner-bg-item-dva {
+    position: absolute;
+    width: 224px;
+    height: 334px;
+    right: 0;
+    bottom: 0;
+}
+.banner-bg-item4 {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    right: 400px;
+    top: 15px;
+    opacity: 0.8;
+}
+.banner-bg-item5 {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    right: 550px;
+    bottom: 80px;
+    opacity: 0.8;
+}
+.banner-bg-item6 {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    opacity: 0.8;
+}
+.banner-bg-item7 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 450px;
+    bottom: 10px;
+}
+.banner-bg-item8 {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    right: 430px;
+    bottom: 20px;
+    opacity: 0.8;
+}
+.banner-bg-item9 {
+    width: 86px;
+    height: 88px;
+    position: absolute;
+    bottom: 41px;
+    left: 114px;
+}
+.banner-bg-item10 {
+    width: 86px;
+    height: 88px;
+    position: absolute;
+    bottom: 41px;
+    left: 340px;
+}
+.banner-bg-item11 {
+    width: 39px;
+    height: 45px;
+    position: absolute;
+    bottom: 59px;
+    left: 144px;
+}
+.banner-bg-item12 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 73px;
+    left: 130px;
+}
+.banner-bg-item13 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 52px;
+    left: 366px;
+}
+.banner-bg-item14 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 73px;
+    left: 358px;
+}
+
+.banner-link {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    width: 165px;
+    bottom: 55px;
+    right: 486px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #ff5f79;
+}
+.banner-link::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    background-image: url(../img/airplane.svg);
+    width: 11px;
+    height: 20px;
+    left: 13px;
+    bottom: 13px;
+}
+.banner-text1 {
+    position: absolute;
+    left: 114px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 50px;
+}
+.banner-text2 {
+    width: 700px;
+    position: absolute;
+    left: 114px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 90px;
+}
+.banner-text3 {
+    width: 650px;
+    position: absolute;
+    left: 114px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 200px;
+}
+.banner-text3 span{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text4 {
+    position: absolute;
+    left: 114px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text4 {
+    position: absolute;
+    left: 210px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text4 span:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text4 span:nth-child(2) {
+    position: absolute;
+    width: 200px;
+    left: 0;
+    bottom: -20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.banner-text5 {
+    position: absolute;
+    left: 435px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text5 span:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text5 span:nth-child(2) {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    bottom: -38px;
+    font-weight: 300;
+    font-size: 14px;
