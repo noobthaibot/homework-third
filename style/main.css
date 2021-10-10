@@ -1,0 +1,17 @@
+header {
+    width: 1420px;
+}
+.logo {
+    position: relative;
+}
+.logo__icon1,
+.logo__icon2,
+.logo__icon3,
+.logo__icon4 {
+    position: absolute;
+    width: 60px;
+}
+.logo__icon1 {
+    top:-54px;
+    left: 60px;
+}
