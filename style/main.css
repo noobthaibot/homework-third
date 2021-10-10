@@ -4,7 +4,8 @@ header {
 body {
     font-family: "Roboto", sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    width: 1420px;
 }
 
 .container {
@@ -59,6 +60,7 @@ body {
 .address a {
     text-decoration: none;
     font-style: normal;
+    font-weight: 300;
     color: #061058;
     margin-top: 7px;
 }
@@ -79,6 +81,17 @@ body {
     cursor: pointer;
     color: #ffffff;
     font-size: 18px;
+}
+.login-button::after {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 10px;
+    position: absolute;
+    top: 47px;
+    left: 219px;
+
+    background-image: url(../img/arrow.svg);
 }
 .login__icon1 {
     position: absolute;
@@ -273,7 +286,7 @@ body {
     font-size: 16px;
     padding-top: 200px;
 }
-.banner-text3 span{
+.banner-text3 span {
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -324,3 +337,115 @@ body {
     bottom: -38px;
     font-weight: 300;
     font-size: 14px;
+}
+.benefits-title {
+    color: #061058;
+    display: block;
+    padding-left: 163px;
+    width: 574px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding-top: 70px;
+}
+.benefits-position {
+    display: flex;
+}
+.benefits-position img {
+    padding-left: 82px;
+}
+.study-title {
+    width: 400px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00a87c;
+    padding-left: 50px;
+}
+.study-list {
+    padding-top: 42px;
+    list-style: none;
+    padding-left: 0;
+}
+.study-list li {
+    display: flex;
+    align-items: center;
+    width: 410px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 14px
+    color: #061058;
+}
+.study-list li::before {
+    content: "";
+    flex-shrink: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 29px;
+}
+.study-duration {
+padding-left: 54px;
+display: flex;
+}
+.study-duration::before {
+    content: "";
+    width: 2px;
+    height: 180px;
+    display: inline-block;
+    background: url(../img/verticalline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-shrink: 0;
+}
+.study-duration-title {
+    font-style: normal;
+    width: 450px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #061058;
+}
+.study-duration-pos {
+    padding-left: 19px;
+}
+.first-step {
+    margin-top: 34px;
+}
+.first-step span:nth-child(1) {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #061058;
+}
+.first-step span:nth-child(2) {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    color: #061058;
+    margin-top: 8px;
+}
+.second-step {
+    margin-top: 34px;
+}
+.second-step span:nth-child(1) {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #061058;
+}
+.second-step span:nth-child(2) {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    color: #061058;
+    margin-top: 8px;
+}
