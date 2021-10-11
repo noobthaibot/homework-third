@@ -393,9 +393,9 @@ body {
     margin-right: 29px;
 }
 .study-duration {
-padding-left: 54px;
-display: flex;
-position: relative;
+    padding-left: 54px;
+    display: flex;
+    position: relative;
 }
 .study-duration::before {
     content: "";
@@ -414,7 +414,7 @@ position: relative;
     font-size: 14px;
     color: #061058;
 }
-.study-duration-pos {
+.study-duration-po  s {
     padding-left: 19px;    
 }
 .first-step {
@@ -591,6 +591,27 @@ position: relative;
     position: absolute;
     width: 30px;
     height: 45px;
-    top: 131px;
+    top: 140px;
     left: 250px;
+}
+.course-img7 {
+    position: absolute;
+    width: 70px;
+    height: 52px;
+    top: 142px;
+    left: 429px;
+}
+.course-img8 {
+    position: absolute;
+    width: 70px;
+    height: 52px;
+    top: 142px;
+    left: 619px;
+}
+.course-img9 {
+    position: absolute;
+    width: 70px;
+    height: 52px;
+    top: 142px;
+    left: 807px;
 }
