@@ -1,0 +1,21 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-lane" viewBox="0 0 16 32">
+<path d="M16 5.6h-12v23.2h12v-23.2z"></path>
+</symbol>
+<symbol id="icon-trilane" viewBox="0 0 30 32">
+<path d="M16 23h-3v5.8h3v-5.8z"></path>
+<path d="M16 12.6h-3v5.8h3v-5.8z"></path>
+<path d="M16 2.4h-3v5.8h3v-5.8z"></path>
+</symbol>
+<symbol id="icon-horizontallane" viewBox="0 0 6054 32">
+<path fill="#c9d2f3" style="fill: var(--color1, #c9d2f3)" d="M16 0h6022.4c8.837 0 16 7.163 16 16s-7.163 16-16 16h-6022.4c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+</symbol>
+<symbol id="icon-whitecircle" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M27.826 11.826c0 6.531-5.295 11.826-11.826 11.826s-11.826-5.295-11.826-11.826c0-6.531 5.295-11.826 11.826-11.826s11.826 5.295 11.826 11.826z"></path>
+</symbol>
+<symbol id="icon-greencircle" viewBox="0 0 32 32">
+<path fill="#00a87c" style="fill: var(--color3, #00a87c)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+</defs>
+</svg>
