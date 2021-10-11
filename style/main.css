@@ -338,6 +338,9 @@ body {
     font-weight: 300;
     font-size: 14px;
 }
+.benefits {
+    padding-bottom: 100px;
+}
 .benefits-title {
     color: #061058;
     display: block;
@@ -505,6 +508,12 @@ position: relative;
     display: flex;
     padding-left: 225px;
 }
+.course-pos img {
+    width: 367px;
+    height: 361px;
+    padding-top: 100px;
+
+}
 .course-title {
     font-weight: 700;
     font-size: 20px;
@@ -514,21 +523,23 @@ position: relative;
 }
 .course {
     position: relative;
+    width: 1420px;
+    height: 485px;
+    background: #F8F8FB;
 }
 .course-item {
-    padding-top: 146px;
+    padding-top: 186px;
     width: 120px;
     display: flex;
     flex-direction: column;
     position: relative;
     margin-right: 70px;
 }
-
-}
-.course-item span {
+ .main-text {
+    display: block;
     text-align: center;
     color: #061058;
-    margin-top: 94px;
+    padding-top: 105px;
     font-size: 14px;
     font-weight: 700;
 }
@@ -542,6 +553,44 @@ position: relative;
     width: 120px;
     height: 123px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 115px;
+    left: 205px;
+}
+.course-img2 {
+    display: inline-block;
+    width: 120px;
+    height: 123px;
+    position: absolute;
+    top: 115px;
+    left: 395px;
+}
+.course-img3 {
+    display: inline-block;
+    width: 120px;
+    height: 123px;
+    position: absolute;
+    top: 115px;
+    left: 585px;
+}
+.course-img4 {
+    display: inline-block;
+    width: 120px;
+    height: 123px;
+    position: absolute;
+    top: 115px;
+    left: 777px;
+}
+.course-img5 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 161px;
+    left: 262px;
+}
+.course-img6 {
+    position: absolute;
+    width: 30px;
+    height: 45px;
+    top: 131px;
+    left: 250px;
 }
